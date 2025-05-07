@@ -8,7 +8,6 @@ Features:
 - Lists all Wi-Fi profiles stored on your computer.
 - Displays passwords (if available).
 - Clean and simple terminal output.
-- Windows only (Linux version coming soon).
 
 Example Output:
 ---------------
@@ -25,10 +24,6 @@ How to Use:
 2. Run the script:
    python wifi_extractor.py
 
-Important:
-----------
-You may need to run the script from an administrator terminal to get full access to the saved profiles.
-
 Requirements:
 -------------
 - Python 3.x
@@ -40,4 +35,4 @@ This script is for educational and personal recovery use only. Do not use it on 
 
 License:
 --------
-MIT License (or whichever license you prefer)
+MIT License
