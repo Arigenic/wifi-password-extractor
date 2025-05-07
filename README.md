@@ -20,7 +20,7 @@ GuestNet                      | N/A
 How to Use:
 -----------
 1. Clone the repo or download the script:
-   git clone https://github.com/yourusername/wifi-password-extractor.git
+   git clone https://github.com/Arigenic/wifi-password-extractor.git
 
 2. Run the script:
    python wifi_extractor.py
