@@ -18,7 +18,7 @@ def get_password(profile):
     result = subprocess.run(['netsh', 'wlan', 'show', 'profile', profile, 'key=clear'], capture_output=True, text=True)
     
     # Look for the 'Key Content' field in the command output to extract the password
-     = re.search(r"Key Content\s*:\s*(.*)", result.stdout)
+    match = re.search(r"Key Content\s*:\s*(.*)", result.stdout)
     
     # Return the password if found, otherwise return None
     return match.group(1).strip() if match else None
